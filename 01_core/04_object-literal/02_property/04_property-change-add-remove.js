@@ -15,3 +15,7 @@ console.log(dog);
 // 프로퍼티 삭제
 delete dog.age;
 console.log(dog);
+
+// 존재하지 않는 프로퍼티를 삭제하면 에러 없이 무시된다.
+delete dog.something;
+console.log(dog);
